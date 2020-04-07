@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+.demo{
+	
+	overflow-x: hidden;
+width:1000px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #ffffff;
+  /*-webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);*/
+}
+.header__content-text {
+  text-align: center;
+  padding: 15px 20px;
+}
+.container {
+    /*border: 1px solid #666666;
+    border-radius: 10px;
+    padding: 8px;*/
+
+    background-color: #FFFFFF;
+    width: 1024px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: 0; 
+	margin-bottom: 100px, auto;
+	height: 100%;
+}
+.fileupload{
+	margin: 5px;
+	width: 500px;
+	border: medium;
+	border-bottom-color: aqua;
+	background: #C5C1C1;
+}
+.myDiv {
+ 	width: 100%;
+	text-align: left;
+  	background-color: #F0EDEE;
+	position: relative;
+}
+
+.myiframe{
+	margin: 10px;
+	align: left;
+	background-color: #FDFDFD;
+	height:80%;
+}
+
+.detailDiv {
+ 	text-align: left;
+  	background-color: #F0EDEE;
+	height: 100%;
+}
+.detailFrame{
+	margin: 10px;
+	align: left;
+	background-color: #FDFDFD;
+	width:1000px;
+	height: 80%;
+}
+
+.infoDiv {
+  	width: 100%;
+  	text-align: left;
+	position: relative;
+}
+
+.button {
+	position: relative;
+  	background-color: #F0EDEE; 
+  	border: thin;
+	margin-right:5px;
+	margin-left:5px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+	cursor: pointer;
+	outline-color: #B8B8B8;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif";
+}
+
+
+.img-link{
+	cursor: pointer;
+}
+
+.enb_position {
+ 	margin-top: 20px;
+  	display: block;
+	position: relative;  
+	align: left;
+	left: 275px; 
+}
+.gnb_position {
+ 	margin-top: 20px;
+  display: block;
+	position: relative;  
+	align: left;
+	left: 275px; 
+}
+
+.ue_position {
+	left: 95px;
+	align:left;
+	 margin-top: 25px; 
+	display: block;
+	position: relative;  
+}
+.mme_position {
+	left: 95px;
+	align:left;
+	margin-top: 25px; 
+	display: block;
+	position: relative;  
+}
+.sgw_position {
+	left: 95px;
+	align:left;
+	margin-top: 25px; 
+	display: block;
+	position: relative;  
+}
+
+.plaintext {
+	position: relative;
+  	background-color: #ffffff; 
+  	border: none;
+	margin-right:10px;
+	margin-left:10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+	outline:none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif";
+}
+
+label {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+label.blue{
+color: blue;
+}

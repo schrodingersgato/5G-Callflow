@@ -1,0 +1,530 @@
+@charset "utf-8";
+/* CSS Document */
+#Base {
+    position: absolute;
+    box-sizing: border-box;
+    background: #E5E5E5;
+    width: 1024px;
+    height: 2700px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    top: 7px;
+	}
+/* Speech bubbles are centered under each node */
+.ue_bubble {
+		overflow: visible;
+		position: absolute;
+		width: 179px;
+		height: 115.001px;
+		top: 115px;
+		left: 10px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+.enb_bubble {
+		overflow: visible;
+		position: absolute;
+		width: 172px;
+		height: 115.001px;
+		top: 115px;
+		left: 225px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+.mme_bubble{
+	overflow: visible;
+		position: absolute;
+		width: 172px;
+		height: 115.001px;
+		top: 115px;
+		
+		left: 421px;
+}
+.gnb_bubble{
+		overflow: visible;
+		position: absolute;
+		width: 172px;
+		height: 115.001px;
+		top: 115px;
+		transform: matrix(1,0,0,1,0,0);
+		left: 834px;
+}
+.sgw_pgw_bubble{
+		overflow: visible;
+		position: absolute;
+		width: 172px;
+		height: 115.001px;
+		top: 115px;
+		transform: matrix(1,0,0,1,0,0);
+		left: 628px;
+}
+
+	.Line_1 {
+		overflow: visible;
+		position: absolute;
+		width: 1px;
+		height: auto;
+		left: 92.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Line_2 {
+		overflow: visible;
+		position: absolute;
+		width: 1px;
+		height: auto;
+		left: 300px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Line_3 {
+		overflow: visible;
+		position: absolute;
+		width: 1px;
+		height: auto;
+		left: 506.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Line_4 {
+		overflow: visible;
+		position: absolute;
+		width: 1px;
+		height: auto;
+		left: 712.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Line_5 {
+		overflow: visible;
+		position: absolute;
+		width: 1px;
+		height: 3000px;
+		left: 919.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	
+/*position arrows. length and direction determined in xml doc */
+
+
+.ue_rectangle03 {
+	margin: 10px;
+	position: relative;
+	left: 80px;
+	background-color: #B2BABB;
+	width: 640px;
+	height: 40px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif";
+	text-align: center;
+	}
+.ue_rectangle02 {
+	margin: 10px;
+	position: relative;
+	left: 80px;
+	background-color: #B2BABB;
+	width: 415px;
+	height: 40px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif";
+	text-align: center;
+	}
+.enb_rectangle02 {
+	margin: 10px;
+	position: relative;
+	left: 290px;
+	background-color: #B2BABB;
+	width: 415px;
+	height: 40px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif";
+	text-align: center;
+	}
+
+
+.line01_flow {
+	overflow: visible;
+	position: relative;
+	left: 85px;
+	height:35px;
+	width:215px;
+	margin-bottom: 5px;
+	}
+
+.line02_flow {
+	overflow: visible;
+	position: relative;
+	left: 288px;
+	height:35px;
+	}
+.line03_flow{
+	overflow: visible;
+	position: relative;
+	left: 495px;
+	height:35px;
+}
+.line04_flow{
+	overflow: visible;
+	position: relative;
+	left: 685px;
+	height:35px;
+}
+
+.line01_buttons{
+	overflow: visible;
+	position: relative;
+	left: 95px;
+}
+.line02_buttons{
+	overflow: visible;
+	position: relative;
+	left: 290px;
+}
+.line03_buttons{
+	overflow: visible;
+	position: relative;
+	left: 505px;
+}
+.line04_buttons{
+	overflow: visible;
+	position: relative;
+	left: 695px;
+}
+	
+.node_background {
+	position: absolute;
+	overflow: visible;
+	width: 1024px;
+	height: 115px;
+	left: 0px;
+	top: 0px;
+	}
+
+.eNodeB {
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		height: 67px;
+		left: 276px;
+		top: 12px;
+	}
+
+.server_stack_gray {
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		height: 60px;
+		left: 688px;
+		top: 19px;
+	}
+	
+.tower {
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		height: 70px;
+		left: 900px;
+		top: 9px;
+	}
+	
+.ue_5g {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 70px;
+		left: 71px;
+		top: 10px;
+	}
+	
+.server_stack_gray_A0_Rectangle_56 {
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		height: 60px;
+		left: 482px;
+		top: 19px;
+	}
+
+/*text labels for nodes*/
+	#UE {
+		position: absolute;
+		left: 80px;
+		top: 78px;
+		overflow: visible;
+		width: 25px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#eNB {
+		position: absolute;
+		left: 280px;
+		top: 78px;
+		overflow: visible;
+		width: 38px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#MME {
+		position: absolute;
+		left: 490px;
+		top: 79px;
+		overflow: visible;
+		width: 47px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#gNB {
+		position: absolute;
+		left: 905px;
+		top: 78px;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#S_GW_P_GW {
+		position: absolute;
+		left: 664px;
+		top: 79px;
+		overflow: visible;
+		width: 111px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+
+/*message details appear below speech bubble and above the directional arrow*/
+
+
+.arrow_01_Message_Details_base {
+	position: absolute;
+	overflow: visible;
+	top: 260px;
+	display: block;
+	width:200px;
+	}
+.arrow_02_Message_Details_base {
+	position: absolute;
+	overflow: visible;
+	top: 260px;
+	display: block;
+	width:415px;
+	}
+.arrow_03_Message_Details_base {
+	position: absolute;
+	overflow: visible;
+	top: 260px;
+	display: block;
+	width:610px;
+	}
+.arrow_04_Message_Details_base {
+	position: absolute;
+	overflow: visible;
+	top: 260px;
+	display: block;
+	width:800px;
+	}
+#message_text{
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: #ffffff;
+	margin: 10px;
+}
+.line01_align{
+	left: 105px;
+}
+.line02_align{
+	left: 312px;
+}
+.line03_align{
+	left: 518px;
+}
+.line04_align{
+	left: 810px;
+}
+.line01_detail {
+	overflow:hidden;
+	position: absolute;
+	left: 95px;
+	top:230px;
+	height: 35px;
+	}
+
+.line02_detail {
+	overflow: visible;
+	position: absolute;
+	left: 285px;
+	top:230px;
+	height: 35px;
+	}
+.line03_detail{
+	overflow: visible;
+	position: absolute;
+	left: 505px;
+	top:230px;
+	height: 35px;
+}
+.line04_detail{
+	overflow: visible;
+	position: absolute;
+	left: 685px;
+	top:230px;
+	height: 35px;
+}
+
+
+/*Navigation Elements*/
+#Home {
+		position: absolute;
+		bottom: 10px;
+		width: 228px;
+		height: 48px;
+		left: 17px;
+		/*top: 707px;*/
+		cursor: pointer;
+		overflow: visible;
+	}
+.Home_Rectangle {
+		position: absolute;
+		overflow: visible;
+		width: 228px;
+		height: 48px;
+		left: 0px;
+		bottom: 0px;
+		/*top: 0px;*/
+	}
+#Home_button {
+		position: absolute;
+		display: inline;
+		left: 38px;
+		bottom: 15px;
+		/*top: 15px;*/
+		overflow: visible;
+		width: 153px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+#Step_Detail_Title {
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+}
+#Explanation {
+		position: absolute;
+		left: 0px;
+		top: 375px;
+		margin: 10px;
+		overflow: hidden;
+		width: 944px;
+		height: 68px;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+
+/*Display the larger logfile frame in step detail*/
+.Log_File_Display {
+		position: absolute;
+		left: 0px;
+		top: 448px;
+		width: 1024px;
+		height: 500px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+#Next_Button {
+		position: absolute;
+		width: 87px;
+		height: 48px;
+		left: 920px;
+		overflow: visible;
+		display: inherit;
+		bottom: 10px;
+		cursor: pointer;
+	}
+
+#Previous_Button {
+		position: absolute;
+		width: 87px;
+		height: 48px;
+		left: 820px;
+		bottom: 10px;
+		overflow: visible;
+		cursor: pointer;
+	}
+	
+#speech_bubble_text {
+		position: inherit;
+		margin-top: 30px;
+		margin-left: 5px;
+		margin-right: 5px;
+		overflow: visible;
+		width: 160px;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+
+.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 1024px;
+		height: 73px;
+		left: 0px;
+		top: 375px;
+	}
+	
+.nav_bar{
+	left:0px;
+	bottom: 0px;
+	position: fixed;
+	width:1024px;
+	height: 70px;
+} 
+	
+.navigation_background {
+		bottom: 0px;
+		display: inherit;
+		position: relative;
+		overflow: visible;
+		width: 1024px;
+		left: 0px;
+		/*top: 693px;*/
+	}
